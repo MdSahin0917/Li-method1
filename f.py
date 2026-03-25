@@ -1,5 +1,4 @@
 import time
-#from math import factorial
 from scipy.special import hyp2f1
 from mpmath import mp
 
