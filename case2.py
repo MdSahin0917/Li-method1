@@ -444,16 +444,16 @@ def I_10(l,alpha,beta,gamma):
 # ---------------- INPUT ---------------- #
 l = 30
 m = 5
-# n = 20
+n = 20
 alpha = mp.mpf('1.0')
 beta = mp.mpf('0.5')
 gamma = mp.mpf('0.5')
 
-# W = (mp.factorial(n)/gamma**(n+1)) * I(l,m,n,alpha,beta,gamma)
+W = (mp.factorial(n)/gamma**(n+1)) * I(l,m,n,alpha,beta,gamma)
 
-# print(mp.nstr(W, 50))
+print(mp.nstr(W, 50))
 
-# # save cache at end
-# save_cache()
+# save cache at end
+save_cache()
 
-print(I())
+
